@@ -1,0 +1,1 @@
+This repo focuses on functional design patterns (with implementations in Scala).
