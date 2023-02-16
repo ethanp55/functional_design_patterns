@@ -19,7 +19,7 @@ object FunctionalInterface extends App {
 
   // If we want a more complicated sorting logic, like something that sorts by first name and then last name, we can
   // create a function and just pass that to the sortWith method (because we can pass functions around like variables)
-  def sortByFirstThenLast(x: Person, y: Person) = {
+  def sortByFirstThenLast(x: Person, y: Person): Boolean = {
     if (x.firstName != y.firstName) {
       x.firstName < y.firstName
     } else {
